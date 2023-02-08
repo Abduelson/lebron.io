@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>IceCream</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="resources/js/bootstrap.min.js" type="text/javascript"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Css -->
+        <style>
+            .navbar-nav{
+                margin-left: 100px;
+            }
+            .nav-item{
+                padding-left: 30px;
+            }
+            
+            .navbar{
+                background: rgb(233, 225, 225);
+            }
+            
+            a {
+                 color: #fff;
+                 transition: all 1s ease-out;
+              }
+
+           .nav-item a:hover,
+            a:focus {
+            border-bottom: 2px solid black;
+            display:inline-block ;
+            }
+            
+            #Text
+            {
+               text-align: center;
+               margin-top: 150px;
+            }
+            
+            .reduction{
+                color: rgb(92, 134, 238);
+            }
+            
+            p{
+                color: gray;
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+             <nav class="navbar navbar-expand-lg navbar-light">
+                 <div class="container-fluid">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                      <a class="navbar-brand" href="#">IceCream</a>
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a style="transition: all 0.5s ease-out;" class="nav-link active" href="index.html">Home</a>
+                        </li>
+                           <li class="nav-item">
+                             <a style="transition: all 1s ease-out;" class="nav-link active" href="Produit.jsp">Produit</a>
+                           </li>
+                             <li class="nav-item">
+                               <a style="transition: all 1s ease-out;" class="nav-link active" href="Contact.jsp">Contact</a>
+                             </li>
+                     </ul>
+                       <div style="margin-right: 30px; padding-right: 25px;" class="item-social">
+                       <a href="#"><i style="padding-right:15px; font-size: 25px; color: rgb(92, 134, 238);;" class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="#"><i style="padding-right:15px; font-size: 25px;  color: rgb(92, 134, 238);;" class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="#"><i style="padding-right:15px; font-size: 25px; color: rgb(92, 134, 238);; " class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+                      <a href="#"><i style="padding-right:15px; font-size: 25px;  color: rgb(92, 134, 238);" class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                 </div>
+             </nav>
+        <div class="container">
+            <div class="row">
+                
+                <div id="Text" class="col-md-6">
+                    <p>OBTENEZ VOTRE COLLECTION DU PRINTEMP</p>
+                    <h1>Bienvenu chez IceCream!<br>
+                        Jusqu'a <span class="reduction">80% de reduction</span><br>
+                        sur nos offres de la semaine
+                    </h1>
+                    <p>Du 07 au 17 fevrier</p>
+                    <button class="btn btn-outline-success"><a style="text-decoration: none; color: black;" href="Produit.jsp">Acheter Maintenant</a></button>
+                </div>
+                
+                 <div id="imj" class="col-md-6">
+                     <img src="Img/Emfant.png" style="height: 690px; text-align: center;">
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
